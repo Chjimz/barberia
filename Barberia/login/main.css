@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+button {
+  width: 20%;
+  height: 10%;
+  margin: 2vh;
+  background-color: white;
+  
+  
+  
+}
+
+
+body{
+  background-image: url("wallpaper.jpeg");
+  background-position: center;
+  text-align: center;
+  background-size: 100%;
+}
+
+
+  button:hover {
+    color: rgba(62, 62, 62, 0.8) !important;
+    box-shadow: 0 4px 16px rgba(220, 115, 115, 0.8);
+    transition: all 0.2s ease;
+  }

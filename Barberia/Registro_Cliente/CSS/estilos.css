@@ -1,0 +1,62 @@
+body{
+     margin:0px;
+     
+	 background-repeat:no-repeat;
+	 background-position:center;
+	 background-attachment:fixed;
+	 background-size:cover;	
+}
+.form{
+    font-size:1.5em;
+	text-align:center;
+	top:30%;
+	position: absolute;
+	left: 35%;
+	color:white;		
+}
+
+.cont input{
+   background:#333399;
+   
+   font-size:25px;
+   display: block;
+   margin: auto;
+   margin-top:30px
+}
+.form-input{
+   padding: 3x;
+   font-size:25px;
+   display: block;
+   margin: auto;
+   margin-top:20px;
+   font-weight: bold;
+   color: white;   
+}
+.titulo{
+   font-size:25px;
+   margin: auto;
+   color: white;   
+   text-align: left;
+   font-size:1.5em;
+	text-align:center;
+	top:15%;
+	position: absolute;
+	left: 10%;   
+}
+.mensajeError{
+    font-size: 30px;
+	text-align:center;
+	top:80%;
+	position: absolute;
+	left: 35%;
+	color:red;		
+}
+.mensajeCorrecto{
+    font-size: 30px;
+	text-align:center;
+	top:30%;
+	position: absolute;
+	left: 35%;
+	color:red;		
+}
+    
